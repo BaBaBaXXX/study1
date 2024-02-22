@@ -1,13 +1,12 @@
 import java.util.Arrays;
-
+// 13. Roman to Integer
 public class Leetcode {
     public static void main(String[] args) {
-        String s = "pwwkew";
-        int[] str = new int[128];
-        Arrays.fill(str, -1);
-        System.out.println(str['a']);
-        int i = 'a';
-        System.out.println(i);
+
+    }
+
+    public int romanToInt(String s) {
+        int sum = 0;
 
     }
 //    public static int lengthOfLongestSubstring(String s) {
