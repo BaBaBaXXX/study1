@@ -1,3 +1,5 @@
+package controlPoints.kt1x;
+
 import java.util.Scanner;
 
 public class kt11 {

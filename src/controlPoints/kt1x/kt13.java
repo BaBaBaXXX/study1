@@ -1,8 +1,8 @@
-package controlPoints;
+package controlPoints.kt1x;
 // делал для 14 Задания Leetcode, должно работать на любой элемент любого массива
 public class kt13 {
     public static void main(String[] args) {
-        String[] strs = new String[]{"flower", "flow", "flower"};
+        String[] strs = new String[]{"flower", "flower", "flower"};
         StringBuilder str = new StringBuilder();
         for (int j = 0; j < lengthCalc(strs); j++) {
             boolean biba = false;
@@ -28,14 +28,4 @@ public class kt13 {
         return min;
     }
 
-    /*public static void compareToBuild (StringBuilder str, String[] strs) {
-        StringBuilder st = new StringBuilder();
-        for (int j = 0; j < lengthCalc(strs); j++) {
-            for (int i = 0; i < strs.length; i++) {
-                if (strs[0].charAt(j) == strs[i].charAt(j)) {
-                    st.append(strs[0].charAt(j));
-                }
-            }
-        }
-    }*/
 }
