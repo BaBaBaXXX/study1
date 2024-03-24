@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class kt25 {
     public static void main(String[] args) {
-        int[]nums = new int[]{4,3,2,7,8,2,3,1};
+        int[]nums = new int[]{1,1};
         ArrayList<Integer> list = new ArrayList<>();
         ArrayList<Integer> list2 = new ArrayList<>();
         Arrays.sort(nums);
@@ -13,7 +13,7 @@ public class kt25 {
             if (!list.contains(num))
                 list.add(num);
         }
-        for (int i = 1; i < nums.length; i++) {
+        for (int i = 1; i <= nums.length; i++) {
             if (!list.contains(i))
                 list2.add(i);
         }
