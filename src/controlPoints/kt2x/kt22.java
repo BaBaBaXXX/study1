@@ -1,11 +1,12 @@
 package controlPoints.kt2x;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class kt22 {
     public static void main(String[] args) {
-        int numRows = 5;
-        int[][] biba = new int[numRows][5];
+        int numRows = new Scanner(System.in).nextInt();
+        int[][] biba = new int[numRows][];
         for (int i = 0; i < numRows; i++) {
             biba[i] = new int[i+1];
             for (int j = 0; j <= i; j++) {
